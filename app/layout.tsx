@@ -1,6 +1,6 @@
 import Footer from '@/components/footer';
 import './globals.css';
-import { Urbanist, Inter } from 'next/font/google';
+import { Urbanist } from 'next/font/google';
 import Navbar from '@/components/navbar';
 import ModalProvider from '@/providers/modal-provider';
 import ToastProvider from '@/providers/toast-provider';
@@ -8,8 +8,13 @@ import ToastProvider from '@/providers/toast-provider';
 const font = Urbanist({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Storeverse - Store',
-  description: 'Buy online',
+  title: 'Slicker - Online Shopping for everyone',
+  description:
+    'Unleash your shopping desires! Explore our online store for a wide range of products. From fashion to electronics, find what you need with ease. Shop now!',
+  authors: [
+    { name: 'Aditya Yaduvanshi', url: 'https://adityayads.vercel.app' },
+  ],
+  keywords: 'ecommerce,online shopping,shopping, shirts,shoes,women,men',
 };
 export const revalidate = 0;
 
